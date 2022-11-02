@@ -1,0 +1,50 @@
+:root{
+    --BaseColor: none;
+    /* --imgBackgroundColor: black; */
+    /* --imgBorder: .25rem solid white; */
+    /* --imgRadius:100px; */
+    --cardTextColor: green;
+}
+.projectsBox{
+    border: 2px solid var(--BaseColor);
+    
+}
+.projectsBox h1{
+    text-align: center;
+}
+.projects{
+    justify-content:space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.cardColumn{
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--cardTextColor);
+}
+.Port-Img{
+    width: 100px;
+    max-width: 200px;
+
+}
+.Resume-Img{
+    width: 400px;
+}
+.star{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+  color: var(--cardTextColor);
+}

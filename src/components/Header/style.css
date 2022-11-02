@@ -1,15 +1,12 @@
 .header-container {
     background-color: white;
-    display: inline-block;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    max-width: 100%;
 
 }
 
 .Header-Img {
-    max-width: 100%;
-    height: 750px
+    /* max-width: 100%; */
+    width: 600px
 }
