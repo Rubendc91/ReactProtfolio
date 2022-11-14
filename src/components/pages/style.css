@@ -9,9 +9,9 @@
     border: 2px solid var(--BaseColor);
     
 }
-.projectsBox h1{
+/* .projectsBox h1{
     text-align: center;
-}
+} */
 .projects{
     justify-content:space-around;
     display: flex;
@@ -36,6 +36,18 @@
     max-width: 200px;
 
 }
+.about-Img Img{
+    max-width: 4rem;
+    border:.25rem solid white;;
+    border-radius: 100px;
+    background-color:black;
+    justify-content: center;
+    text-align: center;
+}
+.about-Img{
+    display: flex;
+    justify-content: right;
+}
 .Resume-Img{
     width: 400px;
 }
@@ -47,4 +59,7 @@ a{
 }
 a:visited {
   color: var(--cardTextColor);
+}
+h1 {
+    text-align: center;
 }

@@ -9,7 +9,7 @@ function resumePage() {
         <section className="projects">
 
             <section className="cardColumn">
-                <a href="https://docs.google.com/document/d/e/2PACX-1vSAfTYDCkeqJcgQPhI-gUt5KkQW_i08NjPt2ov0dikU3lLqdDKT7JJHJjphGd2GqA/pub" target= "blank">
+                <a href="https://drive.google.com/file/d/1BKYuObSD0DidP2d2MwjTA5oC1CANPZ9k/view?usp=share_link" target= "blank">
                     <img className="Resume-Img" src={Resume} alt="placeholder" />
                 </a>
             </section>
