@@ -1,24 +1,46 @@
 :root{
-    --BaseColor: none;
+    background-color: var(--background-color);
+    color: var(--BaseColor);
     /* --imgBackgroundColor: black; */
     /* --imgBorder: .25rem solid white; */
     /* --imgRadius:100px; */
+    --BaseColor: white;
     --cardTextColor: green;
+    --background-color: grey;
+
 }
 .projectsBox{
-    border: 2px solid var(--BaseColor);
+    border: 2px solid none;
+    background-color: var(--background-color);
+
     
+}
+.footer{
+    background-color: var(--background-color);
+}
+.header-container {
+    background-color: var(--background-color);
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.Header-Img {
+    /* max-width: 100%; */
+    width: 600px
 }
 /* .projectsBox h1{
     text-align: center;
 } */
-.projects{
+.resume{
     justify-content:space-around;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-color: var(--background-color);
 }
 
 .cardColumn{
@@ -32,13 +54,13 @@
     color: var(--cardTextColor);
 }
 .Port-Img{
-    width: 100px;
+    height: 100px;
     max-width: 200px;
 
 }
 .about-Img Img{
     max-width: 4rem;
-    border:.25rem solid white;;
+    border:.25rem solid white;
     border-radius: 100px;
     background-color:black;
     justify-content: center;
@@ -63,3 +85,4 @@ a:visited {
 h1 {
     text-align: center;
 }
+

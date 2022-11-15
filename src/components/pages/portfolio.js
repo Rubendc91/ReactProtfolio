@@ -4,7 +4,7 @@ import Horiseon from '../../components/img/Horiseon.png';
 import JATE from '../../components/img/JATE.png';
 import Nutriteam from '../../components/img/Nutriteam.png';
 import CatsVsDogs from '../../components/img/CatsVsDogs.png';
-import './style.css';
+import '../style.css';
 
 
 
@@ -12,7 +12,7 @@ function portfolioPage() {
     return (
         <section className="projectsBox" id="projects">
             <h1>Web apps</h1>
-            <section className="projects">
+            <section className="resume">
 
                 <section className="cardColumn">
                     <a href="https://rubendc91.github.io/HoriseonRefactor" target= "blank">

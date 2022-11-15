@@ -1,5 +1,6 @@
 import React from 'react';
 import Headshot from '../../components/img/bean.png';
+import '../style.css';
 
 
 function aboutPage() {

@@ -6,7 +6,7 @@ function resumePage() {
     return (
         <section className="projectsBox">
         <h1>Resume</h1>
-        <section className="projects">
+        <section className="resume">
 
             <section className="cardColumn">
                 <a href="https://drive.google.com/file/d/1BKYuObSD0DidP2d2MwjTA5oC1CANPZ9k/view?usp=share_link" target= "blank">
