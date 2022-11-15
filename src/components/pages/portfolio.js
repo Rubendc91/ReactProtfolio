@@ -3,6 +3,7 @@ import Horiseon from '../../components/img/Horiseon.png';
 // import Placeholder from '../../components/img/Placeholder.png';
 import JATE from '../../components/img/JATE.png';
 import Nutriteam from '../../components/img/Nutriteam.png';
+import CatsVsDogs from '../../components/img/CatsVsDogs.png';
 import './style.css';
 
 
@@ -34,6 +35,14 @@ function portfolioPage() {
                         <h2 className="cardHeader">Nutriteam</h2>
                     </a>
                 </section>
+
+                <section className="cardColumn">
+                    <a href="https://mysterious-hollows-84029.herokuapp.com/login" target= "_blank">
+                        <img className="Port-Img" src={CatsVsDogs} alt="placeholder" />
+                        <h2 className="cardHeader">Cats V.s. Dogs</h2>
+                    </a>
+                </section>
+
             </section>
         </section >
 
