@@ -1,5 +1,5 @@
 import React from 'react';
-import Headshot from '../../components/img/bean.png';
+import Headshot from '../../components/img/Headshot.png';
 import '../style.css';
 
 
