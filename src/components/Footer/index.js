@@ -22,15 +22,18 @@ function Footer() {
     }
 
     const FooterStyle = {
-        height: "50px",
+        height: "2rem",
         // backgroundColor: "white",
         display: "grid",
-        alignItems: "center",
         justifyContent: "center",
-        gridGap: "15px"
+        gridGap: "15px",
+        position: "fixed",
+        left: 0,
+        bottom: 0,
+        right: 0
 
     }
-    const FooterSection ={
+    const FooterSection = {
         display: "grid",
         gridTemplateColumns: "max-content 1fr 1fr",
         gridGap: "20px"
@@ -40,7 +43,7 @@ function Footer() {
     return (
         <footer style={FooterStyle} className="footer">
             <section style={FooterSection} >
-           <span style={{paddingRight: "15px"}}>© {new Date().getFullYear()}</span> 
+                <span style={{ paddingRight: "15px" }}>© {new Date().getFullYear()}</span>
                 {icons.map(icon => {
                     return <a href={icon.links} key={icon.name} target="_blank" rel="noopener noreferrer" style={linkStyle}><i className={icon.name}></i></a>
                 })}
