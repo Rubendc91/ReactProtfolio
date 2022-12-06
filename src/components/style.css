@@ -64,6 +64,10 @@
     padding: 2rem;
     color: var(--cardTextColor);
 }
+.cardHeader{
+    background-color: gray;
+    border-radius: 1rem;
+}
 .Port-Img{
     height: 100px;
     max-width: 200px;

@@ -14,7 +14,7 @@ function portfolioPage() {
     return (
 
             <section>
-                <h1>Web apps</h1>
+                {/* <h1>Web apps</h1> */}
             <Slide />
             </section>
 
