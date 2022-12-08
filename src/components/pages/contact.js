@@ -49,22 +49,23 @@ function ContactPage() {
 
     const contactForm = {
         color: "red",
-     
-     }
+
+    }
     const label = {
         display: "inline-block",
         width: "120px",
         textAlign: "center",
-      }
+    }
 
     return (
         <section>
             <h1>Contact</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <section>
-                <p>Do nostrud eu consectetur et aliquip. Minim mollit fugiat aute nulla laboris consequat consequat ut veniam aliqua culpa consectetur sit. In laboris tempor reprehenderit duis officia aliqua commodo aute voluptate cillum. Aliquip ea occaecat occaecat culpa ut duis qui irure ad do.</p>
+                    {/* text goes here */}
+                    {/* <p>Do nostrud eu consectetur et aliquip. Minim mollit fugiat aute nulla laboris consequat consequat ut veniam aliqua culpa consectetur sit. In laboris tempor reprehenderit duis officia aliqua commodo aute voluptate cillum. Aliquip ea occaecat occaecat culpa ut duis qui irure ad do.</p> */}
                     <label style={label} htmlFor="name">Name: </label>
-            <input style={contactForm} type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <input style={contactForm} type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </section>
                 <section>
                     <label style={label} htmlFor="message">message: </label>
