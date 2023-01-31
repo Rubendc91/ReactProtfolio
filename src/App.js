@@ -1,12 +1,12 @@
-import React, { useState, Component} from 'react';
+import React, { useState, } from 'react';
 // import React, { Component } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Page from './components/Page';
 // import Sky from 'react-sky';
-import Placeholder from './components/img/Placeholder.png'
-import PageContent from './components/PageContent';
+// import Placeholder from './components/img/Placeholder.png'
+// import PageContent from './components/PageContent';
 
 
 function App() {
