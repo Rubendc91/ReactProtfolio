@@ -5,7 +5,7 @@ import Resume from '../../components/img/Resume.png';
 function resumePage() {
     return (
         <section className="projectsBox">
-        <h1>Resume</h1>
+        {/* <h1>Resume</h1> */}
         <section className="resume">
             {/* text goes here */}
 {/* <p>Labore esse et magna cillum proident. Eiusmod nisi laborum cupidatat quis velit adipisicing exercitation non sit. Occaecat Lorem eu duis magna et et culpa incididunt consequat culpa. Lorem dolore fugiat magna nostrud deserunt cupidatat Lorem reprehenderit.</p> */}

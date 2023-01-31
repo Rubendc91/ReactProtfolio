@@ -59,7 +59,7 @@ function ContactPage() {
 
     return (
         <section>
-            <h1>Contact</h1>
+            {/* <h1>Contact</h1> */}
             <form id="contact-form" onSubmit={handleSubmit}>
                 <section>
                     {/* text goes here */}
