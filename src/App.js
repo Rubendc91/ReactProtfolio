@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Page from './components/Page';
+
 // import Sky from 'react-sky';
 // import Placeholder from './components/img/Placeholder.png'
 // import PageContent from './components/PageContent';
@@ -43,7 +44,7 @@ function App() {
       //     size={'100px'} /* size of the rendered images */
       //     background={'palettedvioletred'} /* color of background */
       //   />
-    <section>
+    <section className='main-section'>
       <Header>
         <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} />
       </Header>
