@@ -57,6 +57,28 @@ function ContactPage() {
         textAlign: "center",
     }
 
+    const icons = [
+        {
+            name: "fa-brands fa-github",
+            links: "https://github.com/Rubendc91",
+            tag: "Github___"
+        },
+        {
+            name: "fa-brands fa-linkedin",
+            links: "https://www.linkedin.com/in/ruben-correa-a5622661/",
+            tag: "LinkedIn___"
+        },
+    ]
+
+    const linkStyle = {
+        textDecoraton: "none",
+        color: "black",
+        cursor: "pointer",
+        fontSize: "2rem",
+        justifyContent: "center",
+        display: "flex"
+    }
+
     return (
         <section>
             {/* <h1>Contact</h1> */}
@@ -78,15 +100,21 @@ function ContactPage() {
                         <p>{errorMessage}</p>
                     </section>
                 )} */}
-                <button style={{
-                    position: "fixed",
-                    left: "50%",
+                <section>
+                {icons.map(icon => {
+                    return <a href={icon.links} key={icon.name} target="_blank" rel="noopener noreferrer" style={linkStyle}>{icon.tag}<i className={icon.name}></i></a>
+                })}
+                </section>
+                {/* <button style={{
+                    // position: "fixed",
+                    // left: "50%",
                     display: "flex",
-                    flexDirection: "column",
+                    // flexDirection: "row",
                     justifyContent: "center",
                     background: "#7FfFbF"
                 }} type="submit"><a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?">Send Email</a> </button>
-            {/* </form> */}
+            </form> */}
+            <a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?" style={linkStyle}>Email____<i class="fa-solid fa-paper-plane" style={linkStyle}></i></a> 
         </section>
     );
 }
