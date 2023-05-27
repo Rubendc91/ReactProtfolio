@@ -13,7 +13,7 @@ function ContactPage() {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMessage) {
-            alert("Submit Form")
+            // alert("Submit Form")
             console.log("submit form", formState)
         }
     };
@@ -39,10 +39,10 @@ function ContactPage() {
             } else {
                 setErrorMessage("")
             }
-            if (!errorMessage) {
-                setFormState({ ...formState, [event.target.name]: event.target.value });
-                console.log("Handle Form", formState);
-            }
+        }
+        if (!errorMessage) {
+            setFormState({ ...formState, [event.target.name]: event.target.value });
+            console.log("Handle Form", formState);
         }
     }
 
@@ -60,10 +60,8 @@ function ContactPage() {
     return (
         <section>
             {/* <h1>Contact</h1> */}
-            <form id="contact-form" onSubmit={handleSubmit}>
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <section>
-                    {/* text goes here */}
-                    {/* <p>Do nostrud eu consectetur et aliquip. Minim mollit fugiat aute nulla laboris consequat consequat ut veniam aliqua culpa consectetur sit. In laboris tempor reprehenderit duis officia aliqua commodo aute voluptate cillum. Aliquip ea occaecat occaecat culpa ut duis qui irure ad do.</p> */}
                     <label style={label} htmlFor="name">Name: </label>
                     <input style={contactForm} type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </section>
@@ -79,9 +77,16 @@ function ContactPage() {
                     <section>
                         <p>{errorMessage}</p>
                     </section>
-                )}
-                <button type="submit">Submit</button>
-            </form>
+                )} */}
+                <button style={{
+                    position: "fixed",
+                    left: "50%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    background: "#7FfFbF"
+                }} type="submit"><a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?">Send Email</a> </button>
+            {/* </form> */}
         </section>
     );
 }
