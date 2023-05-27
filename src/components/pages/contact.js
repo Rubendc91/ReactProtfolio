@@ -59,28 +59,31 @@ function ContactPage() {
 
     const icons = [
         {
-            name: "fa-brands fa-github",
+            name: "fa-brands fa-github fa-bounce",
             links: "https://github.com/Rubendc91",
             tag: "Github___"
         },
         {
-            name: "fa-brands fa-linkedin",
+            name: "fa-brands fa-linkedin fa-bounce",
             links: "https://www.linkedin.com/in/ruben-correa-a5622661/",
             tag: "LinkedIn___"
         },
     ]
 
     const linkStyle = {
+        border:".5rem outset black",
         textDecoraton: "none",
         color: "black",
         cursor: "pointer",
         fontSize: "2rem",
         justifyContent: "center",
-        display: "flex"
+        display: "flex",
+        padding:"1rem",
+        margin: "1rem"
     }
 
     return (
-        <section>
+        <section style={{border: ".5rem inset black", padding: ".2rem", marginTop:"45%"}}>
             {/* <h1>Contact</h1> */}
             {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <section>
@@ -114,7 +117,7 @@ function ContactPage() {
                     background: "#7FfFbF"
                 }} type="submit"><a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?">Send Email</a> </button>
             </form> */}
-            <a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?" style={linkStyle}>Email____<i class="fa-solid fa-paper-plane" style={linkStyle}></i></a> 
+            <a href= "mailto:Rubendc91@gmail.com?subject=Important!!!!!!&body=What would you like to say?" style={linkStyle}>Email____<i class="fa-solid fa-paper-plane fa-bounce" ></i></a> 
         </section>
     );
 }
