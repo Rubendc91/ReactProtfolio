@@ -83,7 +83,7 @@ function ContactPage() {
     }
 
     return (
-        <section style={{border: ".5rem inset black", padding: ".2rem", marginTop:"45%"}}>
+        <section class="contactBorder" style={{border: ".5rem inset black", padding: ".2rem"}}>
             {/* <h1>Contact</h1> */}
             {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <section>
