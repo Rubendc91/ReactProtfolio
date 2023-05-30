@@ -45,7 +45,7 @@ let slides = [
         key: 4,
         content: 
         <section className="cardColumn">
-            <a href="https://mysterious-hollows-84029.herokuapp.com/login" target="_blank">
+            <a href="https://game.alexandergalen.com" target="_blank">
                 <img className="Port-Img" src={CatsVsDogs} alt="placeholder" />
                 <h2 className="cardHeader">Codenames</h2>
             </a>
