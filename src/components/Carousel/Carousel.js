@@ -72,7 +72,7 @@ export default class Example extends Component {
             <div
                 style={{
                     position: "fixed",
-                    left: 0,
+                    left: -16,
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
