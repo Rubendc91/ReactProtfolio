@@ -48,16 +48,18 @@
     cursor: pointer;
     padding-inline-start: 0px;
     background: rgb(0,0,0);
-    background:linear-gradient(360deg, rgba(0,0,0,1) 25%, rgb(68, 68, 73) 50%, rgb(129, 129, 129) 90%);
-    /* padding-top: 2rem; */
-    padding-bottom: 2rem;
+    background:linear-gradient(360deg, rgba(0,0,0,1) 35%, rgb(68, 68, 73) 60%, rgb(129, 129, 129) 90%);
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
 
 }
 
 .Header-Img {
     /* max-width: 600px; */
     width: 100%;
-
+    margin-bottom: 0;
+    /* height: 20rem; */
     /* width: 600px */
 }
 /* .projectsBox h1{
