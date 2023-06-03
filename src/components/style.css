@@ -4,9 +4,9 @@
     /* --imgBackgroundColor: black; */
     /* --imgBorder: .25rem solid white; */
     /* --imgRadius:100px; */
-    --BaseColor: white;
-    --cardTextColor: green;
-    --background-color: grey;
+    --BaseColor: #ffffff;
+    --cardTextColor: #ffffff;
+    --background-color: #808080;
 }
 .projectsBox{
     border: 2px solid none;
@@ -37,15 +37,21 @@
 
 }
 .active{
-    color:green
+    color:white;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgb(68, 68, 73) 50%, rgb(129, 129, 129) 90%);
 }
 .nav-container{
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-gap: 10px; */
     list-style-type: none;
     cursor: pointer;
     padding-inline-start: 0px;
+    background: rgb(0,0,0);
+    background:linear-gradient(360deg, rgba(0,0,0,1) 25%, rgb(68, 68, 73) 50%, rgb(129, 129, 129) 90%);
+    /* padding-top: 2rem; */
+    padding-bottom: 2rem;
+
 }
 
 .Header-Img {
